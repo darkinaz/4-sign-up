@@ -14,7 +14,15 @@ main {
     float: left;
     background-color: yellow;
 }
+.bottom-links {
 
+}
+.bottom-links > a {
+}
+.bottom-links > span {
+
+
+}
 .right-column {
     width: 60%;
     float: left;
