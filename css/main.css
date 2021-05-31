@@ -12,19 +12,11 @@ main {
 .left-column {
     width: 40%;
     float: left;
-    background-color: yellow;
-}
-.bottom-links {
-
-}
-.bottom-links > a {
-}
-.bottom-links > span {
-
+    background-color: aqua;
 
 }
 .right-column {
     width: 60%;
     float: left;
-    background-color: aqua;
+    background-color: brown;
 }
