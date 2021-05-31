@@ -13,10 +13,26 @@ main {
     width: 40%;
     float: left;
     background-color: aqua;
+}
+.bottom-links {
+} 
+.bottom-links > a {
+    
+}
 
+.bottom-links > span { 
+    
+}
+.main-title {
+    font-size: 60px;
 }
 .right-column {
     width: 60%;
     float: left;
     background-color: brown;
 }
+.close {
+
+}
+
+.form {}
