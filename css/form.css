@@ -1,0 +1,31 @@
+.form {
+    display: inline-block;
+    width: 100%;
+    flex-direction: column;
+    gap:  35px;
+}
+.form-row {
+ 
+}
+.form-row > label {
+    display: inline-block;
+    width: 100%;
+}
+.form-row > input {
+    display: inline-block;
+    width: 100%;
+}
+.form-row > button {
+    display: inline-block;
+    width: 30%;
+}
+.form-row > span {
+    display: inline-block;
+    width: 30%;
+
+}
+.form-row > a {
+    display: inline-block;
+    width: 40%;
+    
+}
