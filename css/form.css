@@ -22,9 +22,14 @@
     text-transform: uppercase;
 }
 .form-row > input {
+    line-height: 40px;
     font-size: 20px;
     border: none;
     border-bottom: 1px solid #ccc;
+}
+.form-row > input::placeholder {
+    color: rgb(215, 215, 236);
+
 }
 .form-row > button {
     padding-left: 50px;
@@ -38,6 +43,8 @@
  rgba(194,192,230,1) 0%,
   rgba(52,204,87,1) 49%,
    rgba(47,9,6,1) 100%);
+   box-shadow: -1px 1px 1px 3px red;
+   cursor: pointer;
 }
 .form-row > span {
     line-height: 40px;
@@ -45,7 +52,8 @@
 
 }
 .form-row > button:hover {
-    box-shadow: -1px 1px 1px 0px red;
+    box-shadow: -1px 1px 1px 5px red;
+    
 }
 .form-row > a {
     line-height: 40px;
