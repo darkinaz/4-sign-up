@@ -1,3 +1,4 @@
+
 body,
 body * {
     box-sizing: border-box;
@@ -8,7 +9,7 @@ body * {
     
 }
 
-body {
+body {background-color: aquamarine;
 
 }
 
@@ -41,8 +42,8 @@ main {
     width: 60%;
     float: left;
     padding: 40px;
-    background-color: brown;
-    border: solid 15px black ;
+    background-color: rgb(255, 255, 255);
+    
 }
 .close {
 
