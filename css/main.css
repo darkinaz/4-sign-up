@@ -24,11 +24,20 @@ main {
     width: 40%;
     float: left;
     padding: 40px;
-    background-color: aqua;
+    background-color: #475FB7;
+    background-image: url(../img/mountain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom ;
+    color: rgb(255, 255, 255);
+
+
 }
 .bottom-links {
+    color: rgb(255, 255, 255);
 } 
 .bottom-links > a {
+    color: white
     
 }
 
@@ -37,6 +46,7 @@ main {
 }
 .main-title {
     font-size: 60px;
+    margin-bottom: 250px;
 }
 .right-column {
     width: 60%;
