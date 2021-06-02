@@ -15,11 +15,12 @@ Site published at https://darkinaz.github.io/4-sign-up/
 Design: [Sign Up](https://cdn.discordapp.com/attachments/648536139677958156/648860801997996052/day1dr.png)
 ## Project features
 
-- Github pages
-- png images
-- fixed width content
-- desktop only
-
+ - Github pages
+ - multi-page (sign up, sign in, forgot password)
+ - desktop only
+ - absolute center
+ - form
+ - css blur
 ## Authors
 
 [Mantvydas](https://github.com/darkinaz)
