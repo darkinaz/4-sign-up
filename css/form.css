@@ -1,0 +1,73 @@
+.form {
+    display: inline-block;
+    width: 100%;
+    flex-direction: column;
+    gap:  px;
+}
+.form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    width: 100%;
+ 
+}
+.form-row.flex-row {
+    flex-direction: row;
+    gap: 25px;
+}
+.form-row > label {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.form-row > input {
+    line-height: 40px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+.form-row > input::placeholder {
+    color: rgb(214, 214, 228);
+
+}
+.form-row > button {
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 25px;
+    line-height: 40px;
+    font-size: 20px;
+    border: none;   
+    background: rgb(22,10,233);
+    background: linear-gradient(61deg,
+     rgba(22,10,233,1) 11%,
+     rgba(53,116,191,1) 41%,
+     rgba(16,140,170,1) 100%);
+    cursor: pointer;
+    margin-top: 10px;
+}
+.form-row > span {
+    line-height: 40px;
+    font-size: 17px;
+    margin-top: 10px;
+
+}
+.form-row > button:hover {
+    box-shadow: 1px 1px 1px 5px rgb(12, 88, 230);
+    
+}
+.form-row > a {
+    line-height: 40px;
+    font-size: 17px;
+    text-decoration: none;
+    color: blue;
+    margin-top: 10px;
+}
+.form-row > a:hover {
+    background-color: rgb(160, 160, 207);
+    text-decoration: underline;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
