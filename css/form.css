@@ -2,12 +2,13 @@
     display: inline-block;
     width: 100%;
     flex-direction: column;
-    gap:  px;
+    gap:  10px;
+
 }
 .form-row {
     display: flex;
     flex-direction: column;
-    gap: 1px;
+    gap: 2px;
     width: 100%;
  
 }
@@ -21,6 +22,7 @@
     margin-bottom: 1px;
     text-transform: uppercase;
     margin-top: 25px;
+    color: rgb(216, 207, 207);
 }
 .form-row > input {
     line-height: 40px;
@@ -46,6 +48,7 @@
      rgba(16,140,170,1) 100%);
     cursor: pointer;
     margin-top: 10px;
+
 }
 .form-row > span {
     line-height: 40px;
@@ -54,7 +57,7 @@
 
 }
 .form-row > button:hover {
-    box-shadow: 1px 1px 1px 5px rgb(12, 88, 230);
+    box-shadow: 1px 1px 5px 10px rgb(12, 88, 230);
     
 }
 .form-row > a {
@@ -63,11 +66,11 @@
     text-decoration: none;
     color: blue;
     margin-top: 10px;
+
 }
 .form-row > a:hover {
     background-color: rgb(160, 160, 207);
     text-decoration: underline;
-    border-radius: 25px;
-    padding-left: 10px;
-    padding-right: 10px;
+    border-radius: 50px;
+
 }
