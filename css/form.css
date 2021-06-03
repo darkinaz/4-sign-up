@@ -31,8 +31,8 @@
     border-bottom: 1px solid #ccc;
 }
 .form-row > input::placeholder {
-    color: rgb(214, 214, 228);
-
+    color: rgb(109, 183, 240);
+    
 }
 .form-row > button {
     padding-left: 50px;

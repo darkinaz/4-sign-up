@@ -23,7 +23,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    filter: blur(10px);
+    filter: blur(2px);
 
 }
 
@@ -47,7 +47,7 @@ main {
     background-size: cover;
     background-position: right bottom ;
     color: rgb(255, 255, 255);
-    margin-top: 30px;
+    margin-top: 43px;
 
 }
 .bottom-links {
